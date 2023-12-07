@@ -39,4 +39,14 @@ class HomeController extends AControllerBase
     {
         return $this->html();
     }
+
+    public function tour(): Response
+    {
+        return $this->html();
+    }
+
+    public function shop(): Response
+    {
+        return $this->html();
+    }
 }

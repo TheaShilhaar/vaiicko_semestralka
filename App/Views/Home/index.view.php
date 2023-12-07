@@ -1,3 +1,28 @@
+<?php
+
+/** @var Array $data */
+
+/** @var \App\Core\LinkGenerator $link */
+?>
+<div class="container-fluid">
+    <div>
+        <img src="public/images/what_2.png" class="home">
+    </div>
+</div>
+<div class="container-fluid">
+    <ul class="menu">
+        <li class="welcome-menu"><a class="nav-link" href="<?= $link->url("home.shop") ?>">merch</a></li>
+        <li class="welcome-menu"><a class="nav-link" href="<?= $link->url("home.tour") ?>">tour</a></li>
+        <li class="welcome-menu"><a class="nav-link" href=#>music</a></li>
+        <ul class="welcome-sub-menu">
+            <li class="sub-menu"><a class="nav-link" href=#>listen</a></li>
+            <li class="sub-menu"><a class="nav-link" href=#>watch</a></li>
+        </ul>
+        <li class="sub-menu-extra"><a class="nav-link" href=#>SONGBOOK</a></li>
+        <li class="sub-menu-extra"><a> </a></li>
+    </ul>
+</div>
+<!--
 <div class="container-fluid">
     <div class="row">
         <div class="col mt-5">
@@ -29,3 +54,4 @@
         </div>
     </div>
 </div>
+-->
